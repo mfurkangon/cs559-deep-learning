@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenvs / environments
+.env/
+.venv/
+venv/
+env/
+ENV/
+pyenv/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Caches / testing / typing
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Notebook outputs (optional)
+.ipynb_checkpoints
+*.output
+*.nb.html
+
+# PyTorch / training artifacts
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+runs/
+logs/
+tensorboard/
+tb_logs/
+
+# ML tools
+wandb/
+mlruns/
+.sagemaker/
+
+# Data (CSV files and large arrays)
+*.csv
+*.tsv
+/data/
+datasets/
+raw_data/
+processed_data/
+*.npy
+*.npz
+
+# Logs and temp
+*.log
+tmp/
+temp/
+
+# IDEs and editors
+.vscode/
+*.code-workspace
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets / keys / env files
+.env
+.env.local
+*.pem
+*.key
